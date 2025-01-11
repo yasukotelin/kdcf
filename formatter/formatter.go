@@ -6,7 +6,7 @@ import (
 )
 
 // formatKotlinData はKotlinデータクラスの構造を整形する
-func formatKotlinData(text string) string {
+func FormatKotlinData(text string) string {
 	// 入力が `"` で囲まれている場合に取り除く
 	if strings.HasPrefix(text, "\"") && strings.HasSuffix(text, "\"") {
 		text = strings.TrimPrefix(strings.TrimSuffix(text, "\""), "\"")
