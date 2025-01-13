@@ -18,7 +18,7 @@ func TestFormatKotlinData1(t *testing.T) {
 )`
 	expected = convertTabsToSpaces(expected)
 
-	actual := formatKotlinData(input)
+	actual := FormatKotlinData(input)
 	if strings.TrimSpace(actual) != strings.TrimSpace(expected) {
 		t.Errorf("Expected:\n%s\nGot:\n%s", expected, actual)
 	}
@@ -42,7 +42,7 @@ func TestFormatKotlinData2(t *testing.T) {
 ]`
 	expected = convertTabsToSpaces(expected)
 
-	actual := formatKotlinData(input)
+	actual := FormatKotlinData(input)
 	if strings.TrimSpace(actual) != strings.TrimSpace(expected) {
 		t.Errorf("Expected:\n%s\nGot:\n%s", expected, actual)
 	}
@@ -60,7 +60,7 @@ func TestFormatKotlinData3(t *testing.T) {
 )`
 	expected = convertTabsToSpaces(expected)
 
-	actual := formatKotlinData(input)
+	actual := FormatKotlinData(input)
 	if strings.TrimSpace(actual) != strings.TrimSpace(expected) {
 		t.Errorf("Expected:\n%s\nGot:\n%s", expected, actual)
 	}
@@ -106,7 +106,7 @@ func TestFormatKotlinData4(t *testing.T) {
 ]`
 	expected = convertTabsToSpaces(expected)
 
-	actual := formatKotlinData(input)
+	actual := FormatKotlinData(input)
 	if strings.TrimSpace(actual) != strings.TrimSpace(expected) {
 		t.Errorf("Expected:\n%s\nGot:\n%s", expected, actual)
 	}
@@ -120,7 +120,7 @@ func TestFormatKotlinData5(t *testing.T) {
 )`
 	expected = convertTabsToSpaces(expected)
 
-	actual := formatKotlinData(input)
+	actual := FormatKotlinData(input)
 	if strings.TrimSpace(actual) != strings.TrimSpace(expected) {
 		t.Errorf("Expected:\n%s\nGot:\n%s", expected, actual)
 	}
