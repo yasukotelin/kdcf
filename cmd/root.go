@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github/yasukotelin/kdcf/formatter"
+	"github.com/yasukotelin/kdcf/formatter"
 	"os"
 
 	"github.com/spf13/cobra"
