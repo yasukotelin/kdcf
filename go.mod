@@ -1,4 +1,4 @@
-module github/yasukotelin/kdcf
+module github.com/yasukotelin/kdcf
 
 go 1.23.4
 
